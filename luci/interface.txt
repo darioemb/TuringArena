@@ -1,0 +1,17 @@
+function rifornisci(N, M, K, D[]);
+
+main{
+    read N;
+    read M;
+    read K;
+	
+
+    for u to N
+    {
+        read D[u];
+    }
+
+    call ans = rifornisci(N,M,K,D);
+
+    write ans;
+}

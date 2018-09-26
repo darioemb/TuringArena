@@ -1,0 +1,17 @@
+function interroga(N, K, D[]);
+
+main{
+    read N;
+    read K;
+    
+	
+
+    for u to N
+    {
+        read D[u];
+    }
+
+    call ans = interroga(N,K,D);
+
+    write ans;
+}

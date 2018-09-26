@@ -1,0 +1,18 @@
+function poldo(N, P[], soluzione[]);
+
+main{
+    read N;
+    	
+
+    for u to N
+    {
+        read P[u];
+	read soluzione[u];
+	
+	
+    }
+
+    call ans = poldo(N, P, soluzione);
+
+    write ans;
+}
