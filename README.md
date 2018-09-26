@@ -1,2 +1,2 @@
-# TuringArena
-Implementation of different kind of algorithm problems with using TuringArena.
+# TuringArena(in progress)
+Implementation of different kind of algorithms problems with using TuringArena
