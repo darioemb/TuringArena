@@ -68,6 +68,8 @@ def compute(N, K, D):
     except AlgorithmError as e:
         print(e)
         return -1
+    finally:
+        print(process.time_usage)
 
 def solve(N, K, D):
     

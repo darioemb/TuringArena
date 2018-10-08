@@ -1,4 +1,4 @@
-function rifornisci(N, M, K, D[]);
+function spegni(N, M, K);
 
 main{
     read N;
@@ -6,12 +6,9 @@ main{
     read K;
 	
 
-    for u to N
-    {
-        read D[u];
-    }
+    
 
-    call ans = rifornisci(N,M,K,D);
+    call ans = spegni(N,M,K);
 
     write ans;
 }

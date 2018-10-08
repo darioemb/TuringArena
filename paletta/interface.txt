@@ -1,0 +1,16 @@
+function paletta_sort(N, V[]);
+
+main{
+    read N;
+    
+
+    for u to N
+    {
+        read V[u];
+        
+    }
+
+    call ans = paletta_sort(N,V);
+
+    write ans;
+}

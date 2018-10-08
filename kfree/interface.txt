@@ -1,0 +1,17 @@
+function Trova(N, K, insieme[]);
+
+main{
+    read N;
+    read K;	
+
+    for u to N
+    {
+        read insieme[u];
+	
+	
+	}
+
+    call ans = Trova(N, K, insieme);
+
+    write ans;
+}
