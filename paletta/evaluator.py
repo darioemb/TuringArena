@@ -42,7 +42,7 @@ def evaluate():
         else:
             print(f"Task 3 -- > {ret}!={correct}(wrong)  subtask(3): N ≤ 5000")
             Task[3] = False
-    #task 5
+    #task 4
     
     for _ in range(0, 1): 
         N = random.randint(1, 10000)
@@ -54,12 +54,12 @@ def evaluate():
         ret = compute(N, V)
         correct = solve(N, V)
         if ret == correct:
-            print(f"Task 5 -- > (correct)  subtask(4):N ≤ 10000")
+            print(f"Task 4 -- > (correct)  subtask(4):N ≤ 10000")
             
         else:
             print(f"Task 5 -- > {ret}!={correct}(wrong)  subtask(4):N ≤ 10000")
-            Task[5] = False
-    #task 6
+            Task[4] = False
+    #task 5
     
     for _ in range(0, 1): 
         N = random.randint(1, 15000)
@@ -71,11 +71,11 @@ def evaluate():
         ret = compute(N, V)
         correct = solve(N, V)
         if ret == correct:
-            print(f"Task 6 -- > (correct)  subtask(4):N ≤ 15000")
+            print(f"Task 5 -- > (correct)  subtask(5):N ≤ 15000")
             
         else:
-            print(f"Task 6 -- > {ret}!={correct}(wrong)  subtask(4):N ≤ 1500000")
-            Task[6] = False
+            print(f"Task 6 -- > {ret}!={correct}(wrong)  subtask(5):N ≤ 1500000")
+            Task[5] = False
 def compute(N, V):
     try:
         with run_algorithm(submission.source) as process:
