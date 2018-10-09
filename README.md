@@ -5,14 +5,14 @@ Each problems has different folders, one is called solutions containing the corr
 Furthermore a file call **interface.txt** which refer to the function of the algorithm. The **the evaluator.py** written in python  controls the execution of the algorithm and if it is correct or not and give the time spent for its execution.
 
 ## List of problems:
-The marked problems are the one with mutiple solutions.The others problem has one correct optimal solution and one wrong solution.
+The marked problems are the one with mutiple solutions(wrong,slow,correct).
 - [x] Poldo
 - [x] Padella
-- [ ] Luci
-- [ ] Distributori
-- [ ] Kfree
-- [ ] Interrogazione
-
+- [x] Luci
+- [x] Distributori
+- [x] Kfree
+- [x] Interrogazione
+- In particular Poldo and Paletta has four different solutions including a quadratic one.
 ### How it works:
 Enter the following command from terminal:
 ```bash
@@ -30,6 +30,9 @@ For a wrong solution:
 ```bash
 turingarena evaluate solutions/wrong.cpp
 ```
-
+For slow solution:
+```bash
+turingarena evaluate solutions/slow.cpp
+```
 
 
