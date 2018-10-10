@@ -8,10 +8,7 @@ int poldo(int N, int P[], int soluzione[])
 {
 
       
-    //int P[N];
     
-    //for (int i = 0; i < N; i++)
-        //in>>panini[i];
     
     soluzione[N];
     soluzione[0] = 1;
