@@ -2,7 +2,8 @@
 ## Description:
 Implementation of different kind of algorithm problems using TuringArena.
 Each problems has different folders, one is called solutions containing the correct algorithm in c++, and another folder containing the text (testo.pdf) of the problems. 
-Furthermore a file call **interface.txt** which refer to the function of the algorithm. The **the evaluator.py** written in python  controls the execution of the algorithm and if it is correct or not and give the time spent for its execution.
+Furthermore a file call **interface.txt** which refer to the function of the algorithm. **The evaluator.py** written in python  controls the execution of the algorithm and if it is correct or not and give the time spent for its execution.
+The correct.cpp is the optimal solution, wrong.cpp gives the wrong answer a slow version also is included that perform the algorithm in a slower manner.
 
 ## List of problems:
 The marked problems are the one with mutiple solutions(wrong,slow,correct).
